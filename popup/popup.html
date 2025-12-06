@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WhatTheStack</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <header>
+    <img src="../assets/icon48.png" alt="icon" />
+    <h1>WhatTheStack</h1>
+  </header>
+
+  <section id="summary">
+    <div><strong>URL:</strong> <span id="url">-</span></div>
+    <div class="badges" id="badges"></div>
+  </section>
+
+  <section class="grid">
+    <div class="card">
+      <h3>Frameworks</h3>
+      <ul id="frameworks"></ul>
+    </div>
+    <div class="card">
+      <h3>CMS</h3>
+      <ul id="cms"></ul>
+    </div>
+    <div class="card">
+      <h3>Analytics</h3>
+      <ul id="analytics"></ul>
+    </div>
+    <div class="card">
+      <h3>CDN</h3>
+      <ul id="cdn"></ul>
+    </div>
+  </section>
+
+  <section class="card">
+    <h3>Security Headers</h3>
+    <ul id="security"></ul>
+  </section>
+
+  <section class="actions">
+    <button id="copyJson">Copy JSON</button>
+    <a id="openOptions" href="#">Options</a>
+  </section>
+
+  <script src="../signatures.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
