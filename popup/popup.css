@@ -1,0 +1,13 @@
+body{font-family:system-ui,Segoe UI,Roboto,Arial,sans-serif;margin:0;padding:12px;min-width:340px;background:#f8f9fa;color:#343a40}
+header{display:flex;gap:8px;align-items:center;margin-bottom:8px}
+header h1{font-size:16px;margin:0}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.card{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:10px}
+ul{margin:6px 0 0 16px;padding:0}
+.badges{display:flex;gap:6px;flex-wrap:wrap;margin-top:6px}
+.badge{padding:2px 8px;border-radius:999px;font-size:12px;border:1px solid #e5e7eb;background:#fff}
+.badge.ok{border-color:#28a745;color:#28a745}
+.badge.warn{border-color:#dc3545;color:#dc3545}
+.actions{display:flex;justify-content:space-between;align-items:center;margin-top:10px}
+button{padding:6px 10px;border-radius:8px;border:1px solid #d0d5dd;background:#007bff;color:#fff;cursor:pointer}
+button:hover{opacity:.9}
